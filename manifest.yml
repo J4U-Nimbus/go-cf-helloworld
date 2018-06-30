@@ -1,0 +1,7 @@
+---
+applications:
+- name: go-cf-helloworld
+  buildpack: go_buildpack
+  memory: 24M
+  env:
+    GOPACKAGENAME: main
